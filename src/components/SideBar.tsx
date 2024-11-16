@@ -220,7 +220,7 @@ const SideBar = ({
                   fontSize="0.8rem"
                   sx={{ color: theme.palette.secondary[200] }}
                 >
-                  {user?.data.user.occupation}
+                  {user?.data.user.occupation ? user?.data.user.occupation : ""}
                 </Typography>
               </Box>
               <SettingsOutlined

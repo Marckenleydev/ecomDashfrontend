@@ -128,7 +128,7 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen }) => {
                     fontSize="0.75rem"
                     sx={{ color: theme.palette.secondary[200] }}
                   >
-                    {user?.data.user.occupation}
+                    {user?.data.user.occupation ? user?.data.user.occupation : ""}
                   </Typography>
                 </Box>
               )}
