@@ -1,7 +1,7 @@
 import { Key } from '../components/enum/cache.key';
 import { IResponse } from '../model/IResponse';
 
-export const BASE_URL="https://spring-ecomvisionci-cd-pipeline-production.up.railway.app/api"
+export const BASE_URL="https://spring-ecomvision-ci-cd-pipeline.onrender.com/api"
 
 export const isJsonContentType = (headers: Headers)=>
      [
